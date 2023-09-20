@@ -27,7 +27,7 @@ scrapy crawl blocks.eth -a start_blk=10000000 -a end_blk=11000000 -a types=exter
 
 3. transaction semantics extraction
 
-Use `blocks.semantic.eth` to collect transactions from RPC interfaces e.g.
+Use `blocks.semantic.eth` to collect transaction data and transaction semantic vectors from RPC interfaces e.g.
 ```shell
 scrapy crawl blocks.semantic.eth -a start_blk=10000000 -a end_blk=11000000 -a types=external,internal,erc20,erc721,erc1155
 ```
@@ -42,7 +42,7 @@ scrapy crawl blocks.semantic.eth -a start_blk=10000000 -a end_blk=11000000 -a ty
 
 4. crawl transaction semantics labels
 
-Use `blocks.semantic.eth` to collect transactions semantics labels from Etherscan e.g.
+Use `labels.action` to collect transaction semantics labels from Etherscan e.g.
 ```shell
 scrapy crawl labels.action -a start_blk=10000000 -a end_blk=11000000
 ```

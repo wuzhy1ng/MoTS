@@ -76,6 +76,7 @@ ITEM_PIPELINES = {
     'MoTS.pipelines.LabelsPipeline': 300,
     'MoTS.pipelines.BlockPipeline': 303,
     'MoTS.pipelines.BlockNumberPipeline': 304,
+    'MoTS.pipelines.BlockSemanticPipeline': 305,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)
