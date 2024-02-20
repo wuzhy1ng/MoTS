@@ -1,3 +1,5 @@
+> **Note**: Mots are merged into [BlockchainSpider](https://github.com/wuzhy1ng/BlockchainSpider), see our [documentation](https://870167019.gitbook.io/blockchainspider/settings/customizing-your-workflow).
+
 # MoTS
 A basic implementation of "Know Your Transactions: Real-time and Generic Transaction Semantic Representation on Blockchain & Web3 Ecosystem".
 
